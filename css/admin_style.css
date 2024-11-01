@@ -1,0 +1,12 @@
+
+.form-table label{
+    margin:0px 5px 0px 5px !important; 
+}
+.form-table td{
+    padding: 10px !important;
+    width: 150px !important;
+    font-weight: normal !important;
+}
+.form-table th{
+    font-weight: bolder !important;
+}

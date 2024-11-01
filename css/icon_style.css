@@ -1,0 +1,23 @@
+#tatcontactfrm input, #tatcontactfrm textarea, #tatcontactfrm select{	
+    padding:3px 3px 3px 25px !important;
+}		
+
+#tatcontactfrm input#fname,
+#tatcontactfrm input#lname
+{background:#fff url(images/icons/form_name.png) no-repeat 5px 50%;}
+#tatcontactfrm input#txtcompany{background:#fff url(images/icons/form_comp.png) no-repeat 5px 50%;}
+#tatcontactfrm input#txtaddress1,
+#tatcontactfrm input#txtaddress2,
+#tatcontactfrm input#txtcity,
+#tatcontactfrm input#txtstate,
+#tatcontactfrm #country
+{background:#fff url(images/icons/form_addrs.png) no-repeat 5px 50%;}
+#tatcontactfrm input#email{background:#fff url(images/icons/form_email.png) no-repeat 5px 50%;}
+#tatcontactfrm input#web{background:#fff url(images/icons/form_url.png) no-repeat 5px 50%;}
+#tatcontactfrm textarea#message{background:#fff url(images/icons/form_msg.png) no-repeat 5px 6px;}
+#tatcontactfrm input#txtphone{background:#fff url(images/icons/form_tel.png) no-repeat 5px 6px;}
+#tatcontactfrm input#txtmobile{background:#fff url(images/icons/form_cell.png) no-repeat 5px 6px;}
+#tatcontactfrm input#txtfax{background:#fff url(images/icons/form_fax.png) no-repeat 5px 6px;}
+#tatcontactfrm input#upldfile{background:#fff url(images/icons/form_file.png) no-repeat 5px 6px;}
+#tatcontactfrm select#txtcategory{background:#fff url(images/icons/form_category.png) no-repeat 5px 6px;}
+#tatcontactfrm input#txtsubject{background:#fff url(images/icons/form_subject.png) no-repeat 5px 6px;}

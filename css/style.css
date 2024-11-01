@@ -1,0 +1,101 @@
+
+#tatcontactfrm{	
+    margin:0 auto;
+    background:transparent;
+    max-width:600px;
+    padding:5px;
+    text-align:left;
+    margin:1em 0;
+    padding-top:0px;
+    margin-top:0px;
+    display: block;
+}
+#tatcontactfrm fieldset{
+    margin:0;
+    padding-top:.5em;
+    border:none;
+}		
+#tatcontactfrm legend{
+    background:#fff;
+    padding:0 5px;
+    font-style:italic;
+}	
+#tatcontactfrm p{
+    clear:both;
+    margin:.5em 0;
+}	
+#tatcontactfrm label{    
+    display:block;
+    text-align:left;
+}	
+
+#tatcontactfrm input, 
+#tatcontactfrm textarea, 
+#tatcontactfrm select{	
+    width:80%;
+    box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    -webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    -moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0px;
+    padding:3px;
+    border-radius:2px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+#tatcontactfrm select{    
+    height: 32px;
+}
+
+#tatcontactfrm input#tat_txtcaptcha{
+    width:100px !important;
+    padding: 3px !important;
+}
+
+#tatcontactfrm textarea{
+    height:125px;
+    overflow:auto;
+}
+
+#tatcontactfrm button{
+    cursor:pointer;
+    width:35%;
+    border:none;
+    background:#DBD8D7;
+    background-image:linear-gradient(bottom, #DBD8D7 0%, #DBD8D7 52%);
+    background-image:-moz-linear-gradient(bottom, #DBD8D7 0%, #DBD8D7 52%);
+    background-image:-webkit-linear-gradient(bottom, #DBD8D7 0%, #DBD8D7 52%);
+    color:#535251;
+    margin:0 20px 0 0;
+    padding:10px;
+    border-radius:5px;
+    float: left;
+    font-weight: bold;
+}
+
+#tatcontactfrm p img{
+    margin: 0px;
+    padding: 0px;
+}
+
+#tatcontactfrm #captchalbl{
+    width: 20%;
+    float: left;
+}
+
+@media screen and (max-width: 70em) {
+    
+    #tatcontactfrm #captchalbl{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 48em) {
+
+    
+    #tatcontactfrm #captchalbl{
+        width: 100%;
+    }
+}
